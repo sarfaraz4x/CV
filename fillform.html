@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>fill your form</title>
+    </head>
+    <body>
+        <!--FORMS--> 
+
+    <form action="backend.php">
+        <label for="name"> Name</label> <!--use label: if u click name form will be selected-->
+        <div>
+            <input type="text" name="myName" id="name">
+        </div><br>
+        <div>
+            Roll No: <input type="text" name="myRole">
+        </div><br>  
+        <div>   
+            Email: <input type="text" name="myEmail">
+        </div><br>
+        <div>     
+           Date: <input type="date" name="myDate">
+        </div><br>
+        <div>     
+          Bonus: <input type="number" name="mynumber"> <!--input = also e-->
+        </div><br>
+        <label for="car">car</label>
+        <select name="myCar" id="car">
+            <option value="ind">Indica</option>
+            <option vlaue="swf">sft</option>
+            <option value="th">thar</option>
+
+        </select>
+        <div>     
+          Eligibility: <input type="checkbox" name="myRole" checked>
+        </div><br>
+        <div>     
+            Male: <input type="radio" name="myGender"> Female: <input type="radio" name="myGender">
+        </div><br>
+        <form action="backened.php">   
+            <div>     
+                Sumbit: <input type="submit" value="Submit">
+            </div><br>    
+            <div>     
+                <input type="reset" value="Reset">
+            </div>
+            <!--<div>     
+                Write about your self : <br> <textarea  name="myText">
+            </div><br>-->
+        </form>   <br>
+        <form>
+            <label>Name:</label>
+            <input type="text"><br>
+            <label>Upload Your Photo</label>
+            <input type="file"><br>
+            <label>Date</label>
+            <input type="date"><br>
+            <label>Check</label>
+            <input type="radio"><br>
+            <label>Rate</label>
+            <input type="range"><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
